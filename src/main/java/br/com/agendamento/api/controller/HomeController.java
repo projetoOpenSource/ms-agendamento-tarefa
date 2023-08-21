@@ -41,7 +41,7 @@ public class HomeController {
 	@ApiResponses(@ApiResponse(code = 200, message = ConstanteController.OPERACAO_REALIZADA_COM_SUCESSO))
 	@GetMapping("/teste")
 	public String teste() {
-		return "Hello Teste";
+		return "Hello Teste 1";
 	}
 
 }
