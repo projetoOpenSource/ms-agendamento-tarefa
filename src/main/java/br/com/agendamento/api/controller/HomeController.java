@@ -32,4 +32,16 @@ public class HomeController {
 		return "Hello World";
 	}
 
+	/**
+	 * Endpoint Teste.
+	 *
+	 * @return String
+	 */
+	@ApiOperation(value = "Teste")
+	@ApiResponses(@ApiResponse(code = 200, message = ConstanteController.OPERACAO_REALIZADA_COM_SUCESSO))
+	@GetMapping("/teste")
+	public String teste() {
+		return "Hello Teste";
+	}
+
 }
